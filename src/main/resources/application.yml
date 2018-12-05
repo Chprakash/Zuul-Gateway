@@ -1,0 +1,9 @@
+info:
+  application:
+    name: ZuulServer
+    verison: 1.0
+    description: it is a zuul server
+    
+zuul:
+  routes:
+    AccountService: /accounts/**
